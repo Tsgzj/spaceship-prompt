@@ -40,7 +40,8 @@ fi
 
 if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
   SPACESHIP_PROMPT_ORDER=(
-    time          # Time stampts section
+    # time          # Time stampts section
+    char
     user          # Username section
     dir           # Current directory section
     # host          # Hostname section
@@ -64,7 +65,6 @@ if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
     line_sep      # Line break
     # battery       # Battery level and status
     # vi_mode       # Vi-mode indicator
-    char          # Prompt character
   )
 fi
 
